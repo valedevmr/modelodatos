@@ -40,7 +40,7 @@ class AuthService
         } catch (\Exception $e) {
             return response()->json([
                 'success' => false,
-                'message' => 'Credenciales incorrectas'
+                'message' => 'Ocurrió un problema tc'
             ], 409);
         }
 
